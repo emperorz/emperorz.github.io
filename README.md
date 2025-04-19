@@ -6,7 +6,7 @@ hmmm....
 <link href="lib/hamburgers.min.css" rel="stylesheet">
 
 
-<button class="hamburger hamburger--criss-cross" type="button">
+<div class="hamburger hamburger--criss-cross" >
     <div class="inner">
         <span class="bar"></span>
         <span class="bar"></span>
