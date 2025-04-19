@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<HEAD>
+    <link href="lib/hamburgers.min.css" rel="stylesheet">
+</HEAD>
+<body>
+    <H1> Here we are in HTML!</H1>
+    <p>Let's try a Hamburger</p>
+    <button class="hamburger hamburger--twist" type="button">
+    <div class="inner">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</button>
+
+</body>
+<script>
+    var hamburger = document.querySelector("button.hamburger")
+    hamburger.addEventListener("click", function () {
+    hamburger.classList.toggle("active")
+    })
+</script>
+</html>
